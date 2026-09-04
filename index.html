@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mapeamento de Novos Negócios — Volkswagen do Brasil</title>
+<style>
+:root{--marinho:#1B2A41;--marinho2:#2C3E5A;--dourado:#C0A062;--cinza:#6B7280;
+--claro:#F7F8FA;--borda:#E3E6EB;--fundo:#FFFFFF;--vermelho:#B45309;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--claro);color:#111827;
+font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+.faixa{background:var(--marinho);color:#fff;padding:26px 32px}
+.faixa .marca{font-size:11px;letter-spacing:.18em;color:var(--dourado);font-weight:700}
+.faixa h1{margin:8px 0 4px;font-size:26px;font-weight:700;letter-spacing:-.01em}
+.faixa h1 span{color:var(--dourado)}
+.faixa p{margin:0;color:#B9C2CF;font-size:13.5px;max-width:820px}
+.env{max-width:1180px;margin:0 auto;padding:26px 32px 60px}
+.grid{display:grid;gap:18px}
+.cartao{background:var(--fundo);border:1px solid var(--borda);border-radius:10px;padding:22px 24px}
+.rot{font-size:10.5px;letter-spacing:.14em;color:var(--dourado);font-weight:700;
+text-transform:uppercase;margin-bottom:10px}
+h2{font-size:19px;margin:0 0 4px;color:var(--marinho)}
+.sub{color:var(--cinza);font-size:13.5px;margin:0 0 14px}
+.hero{display:grid;grid-template-columns:1fr 260px;gap:24px;align-items:center}
+.numerao{font-size:76px;line-height:1;font-weight:800;color:var(--dourado);text-align:center}
+.numerao small{display:block;font-size:12px;font-weight:700;color:var(--marinho);
+letter-spacing:.05em;margin-top:10px;line-height:1.4}
+.empresa{font-size:20px;font-weight:700;color:var(--marinho);margin:0 0 6px}
+.meta{color:var(--cinza);font-size:13.5px;margin:2px 0}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+.chip{background:#EEF1F6;color:var(--marinho);border:1px solid var(--borda);
+border-radius:99px;padding:4px 11px;font-size:12px;font-weight:600}
+.chip b{color:var(--dourado)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{background:var(--marinho);color:#fff;text-align:left;padding:9px 10px;font-weight:600;
+font-size:11.5px;letter-spacing:.03em;position:sticky;top:0}
+td{padding:8px 10px;border-bottom:1px solid var(--borda);vertical-align:top}
+tr:nth-child(even) td{background:#FBFCFD}
+.rolagem{overflow-x:auto;border:1px solid var(--borda);border-radius:8px}
+.matriz td,.matriz th{text-align:center;padding:6px 4px}
+.matriz td.nome,.matriz th.nome{text-align:left;min-width:280px;font-size:12.5px}
+.pt{display:inline-block;width:19px;height:19px;border-radius:5px}
+.tem{background:var(--marinho)}
+.nao{background:#EAECF0}
+.falta{background:#FDE7C9;border:1.5px solid var(--dourado)}
+.legenda{display:flex;gap:18px;flex-wrap:wrap;margin-top:12px;font-size:12.5px;color:var(--cinza)}
+.legenda span{display:flex;align-items:center;gap:7px}
+.tag{font-size:11px;font-weight:700;padding:2px 7px;border-radius:4px;white-space:nowrap}
+.t-forte{background:#1B2A41;color:#fff}
+.t-media{background:#DCE3ED;color:#1B2A41}
+.t-def{background:#FDE7C9;color:#8A5A00}
+.nota{background:#FFFBEB;border:1px solid #FCD34D;border-radius:8px;padding:14px 16px;
+font-size:13px;color:#78350F;margin-top:14px}
+.rodape{color:var(--cinza);font-size:11.5px;line-height:1.6;margin-top:26px;
+border-top:1px solid var(--borda);padding-top:18px}
+.duas{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:900px){.hero,.duas{grid-template-columns:1fr}}
+@media print{body{background:#fff}.cartao{break-inside:avoid;border-color:#ccc}}
+</style></head><body>
+
+<div class="faixa">
+  <div class="marca">VILLEN &amp; ASSOCIADOS</div>
+  <h1>Mapeamento de Novos Negócios <span>em Contencioso Judicial Tributário</span></h1>
+  <p>Identificação e seleção de medidas judiciais tributárias a partir da análise comparativa do
+     contencioso da empresa selecionada e dos principais players do setor.</p>
+</div>
+
+<div class="env grid">
+
+  <div class="cartao hero">
+    <div>
+      <div class="rot">Empresa selecionada</div>
+      <p class="empresa">VOLKSWAGEN DO BRASIL INDUSTRIA DE VEICULOS AUTOMOTORES LTDA</p>
+      <p class="meta">CNPJ 59.104.422/0001-50 · SAO BERNARDO DO CAMPO/SP</p>
+      <p class="meta">2910701 — Fabricação de automóveis, camionetas e utilitários</p>
+      <p class="meta">Regime tributário: <b>LUCRO REAL</b> (2024)
+         — 12 anos em lucro real na série da Receita Federal</p>
+      <div class="rot" style="margin-top:18px">Perfil comprovado pelo próprio contencioso</div>
+      <div class="chips"><span class="chip"><b>Importadora</b> · II/ Imposto sobre Importação, PIS - Importação, COFINS - Importação</span><span class="chip"><b>Exportadora</b> · Reintegra</span><span class="chip"><b>Folha Alta</b> · Contribuição sobre a folha de salários, Contribuições Sociais</span><span class="chip"><b>Lucro Real</b> · Não Cumulatividade, Não Cumulatividade, Creditamento</span><span class="chip"><b>Icms Na Base</b> · Exclusão - ICMS</span><span class="chip"><b>Industrial Ipi</b> · IPI/ Imposto sobre Produtos Industrializados, Exclusão - IPI</span></div>
+    </div>
+    <div class="numerao">19
+      <small>MEDIDAS COM PADRÃO SETORIAL<br>pendentes de curadoria técnica</small>
+    </div>
+  </div>
+
+  <div class="cartao">
+    <div class="rot">Análise comparativa</div>
+    <h2>Matriz de medidas por empresa</h2>
+    <p class="sub">Cada linha é um assunto da tabela processual do CNJ. Quadrado cheio significa que
+       a empresa discute a matéria em medida <b>ofensiva</b> — ajuizada por iniciativa própria.
+       O quadrado <b>destacado</b> na coluna da empresa selecionada é a lacuna.</p>
+    <div class="rolagem"><table class="matriz">
+      <thead><tr><th class="nome">Assunto (TPU/CNJ)</th><th class="">Volkswagen<br><small>selecionada</small></th><th class="">General</th><th class="">Mercedes-Benz</th><th class="">Ford</th><th class="">Toyota</th><th class="">Stellantis</th><th class="">Hyundai</th></tr></thead>
+      <tbody><tr><td class="nome"><b>[6080]</b> Contribuição de Intervenção no Domínio Econômico (CIDE) <br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Contribuições &gt; Contribuições Especiais &gt; Contribuição de Intervenção no Domínio Econômico (CIDE)</small></td><td><span class="pt falta"></span></td><td><span class="pt tem"></span></td><td><span class="pt tem"></span></td><td><span class="pt tem"></span></td><td><span class="pt tem"></span></td><td><span class="pt tem"></span></td><td><span class="pt tem"></span></td></tr><tr><td class="nome"><b>[5944]</b> IE/ Imposto sobre Exportação <br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Impostos &gt; IE/ Imposto sobre Exportação</small></td><td><span class="pt falta"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt tem"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td></tr><tr><td class="nome"><b>[5963]</b> Taxa de Guia de Importação <br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Taxas &gt; Federais &gt; Taxa de Guia de Importação</small></td><td><span class="pt falta"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt tem"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td></tr><tr><td class="nome"><b>[5916]</b> Impostos <span class="tag t-def">já enfrenta na defesa</span><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Impostos</small></td><td><span class="pt falta"></span></td><td><span class="pt tem"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td></tr><tr><td class="nome"><b>[5938]</b> Incidência sobre Lucro <br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Impostos &gt; IRPJ/Imposto de Renda de Pessoa Jurídica &gt; Incidência sobre Lucro</small></td><td><span class="pt falta"></span></td><td><span class="pt tem"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td></tr><tr><td class="nome"><b>[5989]</b> Parcelamento <br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Crédito Tributário &gt; Suspensão da Exigibilidade &gt; Parcelamento</small></td><td><span class="pt falta"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt tem"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td></tr><tr><td class="nome"><b>[10557]</b> Exclusão - IPI <span class="tag t-def">já enfrenta na defesa</span><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Crédito Tributário &gt; Base de Cálculo &gt; Exclusão - IPI</small></td><td><span class="pt falta"></span></td><td><span class="pt tem"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td></tr><tr><td class="nome"><b>[5915]</b> Isenção <br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Limitações ao Poder de Tributar &gt; Isenção</small></td><td><span class="pt falta"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td></tr><tr><td class="nome"><b>[5922]</b> Retido na fonte <br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Impostos &gt; IRPF/Imposto de Renda de Pessoa Física &gt; Retido na fonte</small></td><td><span class="pt falta"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td></tr><tr><td class="nome"><b>[6071]</b> Contribuições Especiais <br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Contribuições &gt; Contribuições Especiais</small></td><td><span class="pt falta"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td></tr><tr><td class="nome"><b>[14950]</b> Pagamento <br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Crédito Tributário &gt; Extinção do Crédito Tributário &gt; Pagamento</small></td><td><span class="pt falta"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td></tr><tr><td class="nome"><b>[5940]</b> Compensação de Prejuízos <br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Impostos &gt; IRPJ/Imposto de Renda de Pessoa Jurídica &gt; Compensação de Prejuízos</small></td><td><span class="pt falta"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td></tr><tr><td class="nome"><b>[6058]</b> Indenização Trabalhista <span class="tag t-def">já enfrenta na defesa</span><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Contribuições &gt; Contribuições Previdenciárias &gt; Indenização Trabalhista</small></td><td><span class="pt falta"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td></tr><tr><td class="nome"><b>[5992]</b> Prescrição <span class="tag t-def">já enfrenta na defesa</span><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Crédito Tributário &gt; Extinção do Crédito Tributário &gt; Prescrição</small></td><td><span class="pt falta"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td></tr><tr><td class="nome"><b>[6017]</b> Dívida Ativa (Execução Fiscal) <span class="tag t-def">já enfrenta na defesa</span><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Dívida Ativa (Execução Fiscal)</small></td><td><span class="pt falta"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td></tr><tr><td class="nome"><b>[6030]</b> GATT - &quot;Acordo Geral sobre Tarifas e Comércio&quot; <br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; GATT - &quot;Acordo Geral sobre Tarifas e Comércio&quot;</small></td><td><span class="pt falta"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td></tr><tr><td class="nome"><b>[6091]</b> PAES/Parcelamento Especial <br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Regimes Especiais de Tributação &gt; PAES/Parcelamento Especial</small></td><td><span class="pt falta"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td></tr><tr><td class="nome"><b>[10558]</b> Exclusão - Receitas Provenientes de Exportação <br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Crédito Tributário &gt; Base de Cálculo &gt; Exclusão - Receitas Provenientes de Exportação</small></td><td><span class="pt falta"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt tem"></span></td></tr><tr><td class="nome"><b>[10563]</b> Compensação de Prejuízo <br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Contribuições &gt; Contribuições Sociais &gt; Contribuição Social sobre o Lucro Líquido &gt; Compensação de Prejuízo</small></td><td><span class="pt falta"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt tem"></span></td><td><span class="pt nao"></span></td><td><span class="pt nao"></span></td></tr></tbody></table></div>
+    <div class="legenda">
+      <span><i class="pt tem"></i> discute a matéria</span>
+      <span><i class="pt nao"></i> não localizado</span>
+      <span><i class="pt falta"></i> lacuna da empresa selecionada</span>
+    </div>
+  </div>
+
+  <div class="cartao">
+    <div class="rot">Universo de potenciais medidas</div>
+    <h2>19 matérias que os players discutem e a empresa selecionada não</h2>
+    <p class="sub">Ordenadas por recorrência no setor. Outras 30 matérias foram
+       observadas em um único player e ficam de fora por não configurarem padrão setorial.</p>
+    <div class="rolagem"><table>
+      <thead><tr><th>Código</th><th>Assunto (TPU/CNJ)</th><th>Players</th><th>Quem adota</th>
+      <th>Precedentes possivelmente relacionados</th></tr></thead>
+      <tbody><tr><td><b>6080</b></td><td><b>Contribuição de Intervenção no Domínio Econômico (CIDE)</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Contribuições &gt; Contribuições Especiais &gt; Contribuição de Intervenção no Domínio Econômico (CIDE)</small></td><td><span class="tag t-forte">6 de 6</span></td><td>General (2), Mercedes-Benz (1), Ford (1), Toyota (2), Stellantis (1), Hyundai (1)</td><td></td></tr><tr><td><b>5944</b></td><td><b>IE/ Imposto sobre Exportação</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Impostos &gt; IE/ Imposto sobre Exportação</small></td><td><span class="tag t-forte">4 de 6</span></td><td>Mercedes-Benz (3), Ford (1), Toyota (3), Hyundai (3)</td><td></td></tr><tr><td><b>5963</b></td><td><b>Taxa de Guia de Importação</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Taxas &gt; Federais &gt; Taxa de Guia de Importação</small></td><td><span class="tag t-forte">4 de 6</span></td><td>General (1), Ford (1), Toyota (1), Stellantis (3)</td><td></td></tr><tr><td><b>5916</b></td><td><b>Impostos</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Impostos</small></td><td><span class="tag t-media">3 de 6</span></td><td>General (2), Mercedes-Benz (2), Hyundai (1)</td><td></td></tr><tr><td><b>5938</b></td><td><b>Incidência sobre Lucro</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Impostos &gt; IRPJ/Imposto de Renda de Pessoa Jurídica &gt; Incidência sobre Lucro</small></td><td><span class="tag t-media">3 de 6</span></td><td>General (2), Mercedes-Benz (2), Stellantis (1)</td><td></td></tr><tr><td><b>5989</b></td><td><b>Parcelamento</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Crédito Tributário &gt; Suspensão da Exigibilidade &gt; Parcelamento</small></td><td><span class="tag t-media">3 de 6</span></td><td>Mercedes-Benz (1), Ford (2), Toyota (1)</td><td></td></tr><tr><td><b>10557</b></td><td><b>Exclusão - IPI</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Crédito Tributário &gt; Base de Cálculo &gt; Exclusão - IPI</small></td><td><span class="tag t-media">3 de 6</span></td><td>General (1), Mercedes-Benz (1), Hyundai (1)</td><td></td></tr><tr><td><b>5915</b></td><td><b>Isenção</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Limitações ao Poder de Tributar &gt; Isenção</small></td><td><span class="tag t-media">2 de 6</span></td><td>General (2), Toyota (2)</td><td></td></tr><tr><td><b>5922</b></td><td><b>Retido na fonte</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Impostos &gt; IRPF/Imposto de Renda de Pessoa Física &gt; Retido na fonte</small></td><td><span class="tag t-media">2 de 6</span></td><td>General (3), Ford (1)</td><td><small><b>RG 699 STF</b> — É constitucional a cobrança, em face das entidades fechadas de previdência complementar não imunes, do imposto de renda retido na fonte (IRRF) e da co</small><br><small><b>RR 1160 STJ</b> — O IR e a CSLL incidem sobre a correção monetária das aplicações financeiras, porquanto estas se caracterizam legal e contabilmente como Receita Bruta,</small><br><small style="color:#B45309">inferência — não confirmado</small></td></tr><tr><td><b>6071</b></td><td><b>Contribuições Especiais</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Contribuições &gt; Contribuições Especiais</small></td><td><span class="tag t-media">2 de 6</span></td><td>General (3), Ford (1)</td><td></td></tr><tr><td><b>14950</b></td><td><b>Pagamento</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Crédito Tributário &gt; Extinção do Crédito Tributário &gt; Pagamento</small></td><td><span class="tag t-media">2 de 6</span></td><td>Mercedes-Benz (1), Stellantis (3)</td><td></td></tr><tr><td><b>5940</b></td><td><b>Compensação de Prejuízos</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Impostos &gt; IRPJ/Imposto de Renda de Pessoa Jurídica &gt; Compensação de Prejuízos</small></td><td><span class="tag t-media">2 de 6</span></td><td>Ford (1), Toyota (2)</td><td><small><b>RG 117 STF</b> — É constitucional a limitação do direito de compensação de prejuízos fiscais do IRPJ e da base de cálculo negativa da CSLL.</small><br><small style="color:#B45309">inferência — não confirmado</small></td></tr><tr><td><b>6058</b></td><td><b>Indenização Trabalhista</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Contribuições &gt; Contribuições Previdenciárias &gt; Indenização Trabalhista</small></td><td><span class="tag t-media">2 de 6</span></td><td>Mercedes-Benz (2), Hyundai (1)</td><td></td></tr><tr><td><b>5992</b></td><td><b>Prescrição</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Crédito Tributário &gt; Extinção do Crédito Tributário &gt; Prescrição</small></td><td><span class="tag t-media">2 de 6</span></td><td>Mercedes-Benz (1), Toyota (1)</td><td></td></tr><tr><td><b>6017</b></td><td><b>Dívida Ativa (Execução Fiscal)</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Dívida Ativa (Execução Fiscal)</small></td><td><span class="tag t-media">2 de 6</span></td><td>Mercedes-Benz (1), Stellantis (1)</td><td></td></tr><tr><td><b>6030</b></td><td><b>GATT - &quot;Acordo Geral sobre Tarifas e Comércio&quot;</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; GATT - &quot;Acordo Geral sobre Tarifas e Comércio&quot;</small></td><td><span class="tag t-media">2 de 6</span></td><td>Ford (1), Toyota (1)</td><td></td></tr><tr><td><b>6091</b></td><td><b>PAES/Parcelamento Especial</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Regimes Especiais de Tributação &gt; PAES/Parcelamento Especial</small></td><td><span class="tag t-media">2 de 6</span></td><td>Toyota (1), Stellantis (1)</td><td></td></tr><tr><td><b>10558</b></td><td><b>Exclusão - Receitas Provenientes de Exportação</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Crédito Tributário &gt; Base de Cálculo &gt; Exclusão - Receitas Provenientes de Exportação</small></td><td><span class="tag t-media">2 de 6</span></td><td>Stellantis (1), Hyundai (1)</td><td></td></tr><tr><td><b>10563</b></td><td><b>Compensação de Prejuízo</b><br><small style="color:#6B7280">DIREITO TRIBUTÁRIO &gt; Contribuições &gt; Contribuições Sociais &gt; Contribuição Social sobre o Lucro Líquido &gt; Compensação de Prejuízo</small></td><td><span class="tag t-media">2 de 6</span></td><td>Mercedes-Benz (1), Toyota (1)</td><td></td></tr></tbody></table></div>
+    <div class="nota"><b>Este é o universo, não a lista final.</b> A coluna de precedentes é
+      sugestão por sobreposição de termos — inferência, não dado. A qualificação por
+      <b>aderência à empresa</b> e <b>consistência jurídica</b> é a curadoria técnica, e é ela que
+      converte este universo em oportunidades selecionadas.</div>
+  </div>
+
+  <div class="duas">
+    <div class="cartao">
+      <div class="rot">Base da comparação</div>
+      <h2>Denominadores</h2>
+      <p class="sub">Publicados de propósito: sem eles, uma coleta parcial produz oportunidades que
+         não existem, e diferença de porte seria confundida com diferença de estratégia.</p>
+      <div class="rolagem"><table>
+        <thead><tr><th>Empresa</th><th>Processos tributários</th><th>Ofensivos</th>
+        <th>Assuntos distintos</th></tr></thead><tbody><tr><td><b>Volkswagen do Brasil — empresa selecionada</b></td><td>275</td><td>158</td><td>64</td></tr><tr><td>General Motors do Brasil</td><td>190</td><td>120</td><td>60</td></tr><tr><td>Mercedes-Benz do Brasil</td><td>123</td><td>72</td><td>50</td></tr><tr><td>Ford Motor Company Brasil</td><td>126</td><td>63</td><td>49</td></tr><tr><td>Toyota do Brasil</td><td>90</td><td>46</td><td>47</td></tr><tr><td>Stellantis / FCA Fiat Chrysler</td><td>156</td><td>68</td><td>46</td></tr><tr><td>Hyundai Motor Brasil</td><td>45</td><td>38</td><td>38</td></tr></tbody></table></div>
+    </div>
+    <div class="cartao">
+      <div class="rot">Método e limites</div>
+      <h2>De onde vem cada número</h2>
+      <p class="sub" style="margin-bottom:10px">
+        <b>Descoberta:</b> DJEN/Comunica do CNJ, por nome da parte, nos TRF1 a TRF6.<br>
+        <b>Classificação:</b> DataJud do CNJ, pelos códigos de assunto das Tabelas Processuais
+        Unificadas.<br>
+        <b>Catálogo:</b> Banco Nacional de Precedentes (Pangea) do CNJ.<br>
+        <b>Perfil:</b> Receita Federal — CNAE, porte e regime tributário ano a ano.</p>
+      <div class="nota" style="margin-top:0">
+        <b>Limites declarados.</b> O DJEN é fonte exclusiva desde 16/05/2025: o retrato é do
+        contencioso <b>vivo</b>, não do arquivo histórico. O DataJud é alimentado em lote e costuma
+        estar de 2 a 4 semanas atrás — serve para triagem, não substitui a consulta no tribunal.
+        Fora do escopo: justiça estadual, contencioso administrativo, Fazendas estaduais e
+        municipais, e processos em segredo de justiça.
+        <b>Nenhuma linha afirma que a empresa não possui determinada medida</b> — apenas que não a
+        localizamos nas bases consultadas.</div>
+    </div>
+  </div>
+
+  <div class="rodape">
+    A tecnologia amplia a capacidade de identificação. A análise técnica determina a relevância e a
+    aplicabilidade da oportunidade.<br><br>
+    Levantamento automatizado de fontes públicas, com data de corte 2026-09-04. Não constitui parecer
+    jurídico e não substitui análise individualizada dos autos. Fontes: DJEN/Comunica, DataJud,
+    Banco Nacional de Precedentes e Tabelas Processuais Unificadas, todos do Conselho Nacional de
+    Justiça. Precedentes do Superior Tribunal de Justiça sob licença CC-BY.
+  </div>
+</div>
+</body></html>
